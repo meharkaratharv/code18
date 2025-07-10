@@ -1,0 +1,72 @@
+/* Base setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4d4b4b;
+}
+
+/* Main container */
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+.containermain {
+  font-size: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #a0c7d2;
+  margin-bottom: 30px;
+}
+.name{
+  color:rgb(104, 85, 107);
+  font-family:cursive;
+  font-size: 40px;
+}
+.role{
+  font-family:'Courier New', Courier, monospace;
+  letter-spacing: -1px;
+}
+
+/* Grid layout centered */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Player card */
+.card {
+  background-color: #c4d6da;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Player image */
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* Player name */
+.card h2 {
+  font-size: 1.1rem;
+  color: #222;
+  margin: 5px 0;
+}
+
+/* Player role */
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
